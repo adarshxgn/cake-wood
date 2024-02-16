@@ -1,0 +1,41 @@
+.scroller-inner{
+    display: flex;
+    gap: 2rem;
+    overflow-x:auto;
+    animation: slide 16s infinite;
+}
+.scroll-img{
+    width: 990px;
+    height:600px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+    flex: 1 0 100%  ;
+    display: inline-flex;
+    scroll-snap-align: start;
+}
+.scroller{
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0 2rem 16rem;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+<div class="row1">
+<div>  <img src="./images/dessert-yogurt.jpg" alt="" class="img2"></div>
+<div id="yogurt" class="boxright">
+  <h2 class="subhead"> Yogurt</h2>
+  <p class="para">Yogurt, a cultured delight, boasts a creamy texture and a tangy embrace. Packed with probiotics, it is not just a treat for the taste buds but also a nourishing ally for gut health.</p>
+  <a href="" class="btn">Learn more</a>
+</div>
+</div>
+<div id="soup" class="boxleft">
+<h2 class="subhead"> Soups</h2>
+<p class="para">Yogurt, a cultured delight, boasts a creamy texture and a tangy embrace. Packed with probiotics, it is not just a treat for the taste buds but also a nourishing ally for gut health.</p>
+<a href="" class="btn">Learn more</a>
+</div>
+<div>
+<img src="./images/soup.jpg" alt="" class="img3">
+</div>
